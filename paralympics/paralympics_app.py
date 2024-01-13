@@ -11,4 +11,4 @@ def hello_world():
 
 @app.route("/<name>")
 def hello(name):
-    return "Hello " + name + "and welcome to my paralympics app"
+    return "Hello " + name + " and welcome to my paralympics app"
